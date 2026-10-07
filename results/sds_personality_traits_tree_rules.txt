@@ -1,0 +1,12 @@
+DEPTH-3 DECISION TREE RULES - SDS Personality Traits
+
+|--- openness_to_experience <= 38.50
+|   |--- class: 0
+|--- openness_to_experience >  38.50
+|   |--- conscientiousness <= 36.50
+|   |   |--- class: 0
+|   |--- conscientiousness >  36.50
+|   |   |--- agreeableness <= 37.50
+|   |   |   |--- class: 0
+|   |   |--- agreeableness >  37.50
+|   |   |   |--- class: 1

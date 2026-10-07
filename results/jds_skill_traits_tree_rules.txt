@@ -1,0 +1,18 @@
+DEPTH-3 DECISION TREE RULES - JDS Skill Traits
+
+|--- dashboard_and_storytelling_skills <= 4.15
+|   |--- maths-stats_skills <= 4.60
+|   |   |--- class: 0
+|   |--- maths-stats_skills >  4.60
+|   |   |--- dashboard_and_storytelling_skills <= 2.55
+|   |   |   |--- class: 0
+|   |   |--- dashboard_and_storytelling_skills >  2.55
+|   |   |   |--- class: 0
+|--- dashboard_and_storytelling_skills >  4.15
+|   |--- maths-stats_skills <= 3.55
+|   |   |--- class: 0
+|   |--- maths-stats_skills >  3.55
+|   |   |--- coding_skills <= 4.65
+|   |   |   |--- class: 1
+|   |   |--- coding_skills >  4.65
+|   |   |   |--- class: 1
